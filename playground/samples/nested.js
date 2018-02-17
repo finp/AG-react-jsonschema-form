@@ -200,6 +200,12 @@ module.exports = {
             version: "V1.1",
             tag: "v1.1.4",
             archived: false,
+            compatibleVersions: [
+              {
+                Component: "iOS",
+                version: "V1.0",
+              },
+            ],
           },
         ],
       },
